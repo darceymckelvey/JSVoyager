@@ -1,3 +1,5 @@
+// lessons from youtuber ColorCode https://www.youtube.com/watch?v=okkHnAo8GmE&t=1151s
+// have plans to re write and rehash information here for my first blog post topic
 // bad code
 // ========
 // - no semi-colons
@@ -60,12 +62,12 @@ function singASong() {
 }
 
 function doSyncStuff(ms) {
+    // prob dont do this in production?
     const end = Date.now() + ms;
     while (Date.now() < end) {}
 }
 
 // Async style: you can interact with the webpage will it gets coffee
-// 
 getCoffee2();
 singASong2();
 
